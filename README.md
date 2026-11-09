@@ -2,9 +2,9 @@
 
 <a id="top"></a>
 
-<img src="assets/header.gif" alt="Fork Royale — animated pixel-art arena with two rival coding bots" width="100%" />
+<img src="assets/header.svg" alt="Fork Royale — animated pixel-art arena with two rival coding bots" width="100%" />
 
-<sub>Original artwork · <a href="assets/header.svg">Animated SVG source</a> · The GIF ensures motion on GitHub.</sub>
+<sub>Original vector artwork · CSS animations, synchronized 8-second seamless loop · No GIFs or JavaScript.</sub>
 
 # FORK ROYALE
 
@@ -198,10 +198,8 @@ fork-royale/
 │   │   └── feature_request.yml
 │   └── pull_request_template.md
 ├── assets/
-│   ├── header.svg          # Animated vector source
-│   ├── footer.svg          # Animated vector source
-│   ├── header.gif          # GitHub-compatible animated banner
-│   └── footer.gif          # GitHub-compatible animated footer
+│   ├── header.svg          # Seamlessly looping vector banner
+│   └── footer.svg          # Seamlessly looping vector footer
 ├── docs/
 │   ├── START_HERE.fr.md    # Absolute beginner walkthrough
 │   ├── ARCHITECTURE.md     # Design and trust boundaries
@@ -210,7 +208,7 @@ fork-royale/
 │   ├── ROADMAP.md          # Milestones and acceptance criteria
 │   └── TROUBLESHOOTING.fr.md
 ├── tools/
-│   └── render_assets.py    # Rebuild the SVG and GIF assets
+│   └── render_assets.py    # Rebuild the SVG assets (Python stdlib only)
 ├── .gitignore
 ├── README.md
 ├── CONTRIBUTING.md
@@ -283,7 +281,7 @@ These commands are for an **example README-only change**. If you edited another 
 | `Permission denied (publickey)` | Git remote and authentication method | Use HTTPS with Git Credential Manager or configure SSH |
 | PowerShell denies `Activate.ps1` | `.venv` exists? | Call `.venv\Scripts\python.exe` directly |
 | `No module named fork_royale` | Milestone M1 implemented? | Expected before M1; do not install a guessed package |
-| A README image is missing | `assets/` committed? | Commit GIFs and SVGs with original relative paths |
+| A README image is missing | `assets/` committed? | Commit both SVGs with the correct relative paths |
 | A badge says `repo not found` | Repository owner correct and published? | Correct the owner in README or publish the repository |
 
 Full explanations, commands, and when to open an issue: [TROUBLESHOOTING.fr.md](docs/TROUBLESHOOTING.fr.md).
@@ -304,9 +302,9 @@ Licensed under [MIT](LICENSE) so you can study, modify, fork and redistribute th
 
 <div align="center">
 
-<img src="assets/footer.gif" alt="Animated thank-you footer — If Fork Royale inspires you, star the project and share it" width="100%" />
+<img src="assets/footer.svg" alt="Animated thank-you footer — If Fork Royale inspires you, star the project and share it" width="100%" />
 
-<sub><a href="assets/footer.svg">View animated SVG footer</a></sub>
+<sub>SVG only · Seamless 8s loop · Motion-reduction support</sub>
 
 **Thank you for building this arena with us.**
 
