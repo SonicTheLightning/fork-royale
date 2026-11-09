@@ -2,314 +2,215 @@
 
 <a id="top"></a>
 
-<img src="assets/header.svg" alt="Fork Royale — animated pixel-art arena with two rival coding bots" width="100%" />
-
-<sub>Original vector artwork · CSS animations, synchronized 8-second seamless loop · No GIFs or JavaScript.</sub>
+<img src="assets/header.svg" alt="Fork Royale neon arena with two rival robot players" width="100%" />
 
 # FORK ROYALE
 
 **Code your bot. Outsmart your rivals. Build the arena together.**
 
-*An open-source coding arena where your strategy is your character.*
+*A planned open-source coding battleground where your strategy becomes your character.*
 
-[![Stage: Blueprint](https://img.shields.io/badge/stage-blueprint-9B7CFF?style=flat&labelColor=171D37)](docs/ROADMAP.md)
-[![Python target](https://img.shields.io/badge/python-3.11%2B-00D9F5?style=flat&logo=python&logoColor=white&labelColor=171D37)](https://www.python.org/)
-[![MIT license](https://img.shields.io/badge/license-MIT-6EE7B7?style=flat&labelColor=171D37)](LICENSE)
-[![Open source](https://img.shields.io/badge/open-source-6EE7B7?style=flat&labelColor=171D37)](LICENSE)
-[![Beginner friendly](https://img.shields.io/badge/beginners-welcome-FF72B6?style=flat&labelColor=171D37)](docs/START_HERE.fr.md)
-[![Contributors welcome](https://img.shields.io/badge/PRs-welcome-6EE7B7?style=flat&labelColor=171D37)](CONTRIBUTING.md)
+[![Project stage](https://img.shields.io/badge/stage-blueprint-9B7CFF?style=flat&logo=github&logoColor=white&labelColor=171D37)](https://github.com/SonicTheLightning/fork-royale/tree/rufus-updates)
+[![Development branch](https://img.shields.io/badge/branch-rufus--updates-A855F7?style=flat&logo=git&logoColor=white&labelColor=171D37)](https://github.com/SonicTheLightning/fork-royale/tree/rufus-updates)
+[![Python target](https://img.shields.io/badge/python-3.11%2B%20planned-00D9F5?style=flat&logo=python&logoColor=white&labelColor=171D37)](https://www.python.org/)
+[![Game mode](https://img.shields.io/badge/game-turn--based-00D9F5?style=flat&logo=github&logoColor=white&labelColor=171D37)](#the-arena-concept)
+[![Arena](https://img.shields.io/badge/arena-10x10%20draft-9B7CFF?style=flat&labelColor=171D37)](#the-arena-concept)
+[![Engine](https://img.shields.io/badge/engine-not%20implemented-FFB86B?style=flat&labelColor=171D37)](#project-status)
+[![Tests](https://img.shields.io/badge/tests-not%20configured-69748B?style=flat&logo=pytest&logoColor=white&labelColor=171D37)](#project-status)
+[![CI](https://img.shields.io/badge/CI-not%20configured-69748B?style=flat&logo=githubactions&logoColor=white&labelColor=171D37)](#project-status)
+[![License](https://img.shields.io/github/license/SonicTheLightning/fork-royale?style=flat&color=6EE7B7&labelColor=171D37)](LICENSE)
 
-[![Game mode](https://img.shields.io/badge/game-turn--based-00D9F5?style=flat&labelColor=171D37)](docs/RULES.md)
-[![Arena](https://img.shields.io/badge/arena-10x10%20planned-9B7CFF?style=flat&labelColor=171D37)](docs/RULES.md)
-[![Bots](https://img.shields.io/badge/bots-Python%20planned-9B7CFF?style=flat&labelColor=171D37)](docs/ARCHITECTURE.md)
-[![Interface](https://img.shields.io/badge/interface-CLI%20planned-9B7CFF?style=flat&labelColor=171D37)](docs/ROADMAP.md)
-[![Testing](https://img.shields.io/badge/tests-pytest%20planned-9B7CFF?style=flat&labelColor=171D37)](docs/ROADMAP.md)
-[![CI](https://img.shields.io/badge/CI-not%20configured-69748B?style=flat&labelColor=171D37)](docs/ROADMAP.md)
-[![Execution](https://img.shields.io/badge/bot%20sandbox-planned-FFB86B?style=flat&labelColor=171D37)](SECURITY.md)
-[![Dependencies](https://img.shields.io/badge/runtime-stdlib%20target-00D9F5?style=flat&labelColor=171D37)](docs/ARCHITECTURE.md)
-[![Documentation](https://img.shields.io/badge/docs-available-6EE7B7?style=flat&labelColor=171D37)](docs/START_HERE.fr.md)
-[![Language](https://img.shields.io/badge/guide-fran%C3%A7ais-FF72B6?style=flat&labelColor=171D37)](docs/START_HERE.fr.md)
-
-<!-- Live GitHub counts use the project owner account. They become available once this repository is published. -->
-[![Stars](https://img.shields.io/github/stars/SonicTheLightning/fork-royale?style=flat&label=stars&color=FFD166&labelColor=171D37)](https://github.com/SonicTheLightning/fork-royale/stargazers)
-[![Forks](https://img.shields.io/github/forks/SonicTheLightning/fork-royale?style=flat&label=forks&color=00D9F5&labelColor=171D37)](https://github.com/SonicTheLightning/fork-royale/forks)
-[![Issues](https://img.shields.io/github/issues/SonicTheLightning/fork-royale?style=flat&label=issues&color=FF72B6&labelColor=171D37)](https://github.com/SonicTheLightning/fork-royale/issues)
-[![Contributors](https://img.shields.io/github/contributors/SonicTheLightning/fork-royale?style=flat&label=contributors&color=6EE7B7&labelColor=171D37)](https://github.com/SonicTheLightning/fork-royale/graphs/contributors)
-[![Last commit](https://img.shields.io/github/last-commit/SonicTheLightning/fork-royale?style=flat&label=last%20commit&color=9B7CFF&labelColor=171D37)](https://github.com/SonicTheLightning/fork-royale/commits/main)
+[![Stars](https://img.shields.io/github/stars/SonicTheLightning/fork-royale?style=flat&logo=github&label=stars&color=FFD166&labelColor=171D37)](https://github.com/SonicTheLightning/fork-royale/stargazers)
+[![Forks](https://img.shields.io/github/forks/SonicTheLightning/fork-royale?style=flat&logo=github&label=forks&color=00D9F5&labelColor=171D37)](https://github.com/SonicTheLightning/fork-royale/forks)
+[![Issues](https://img.shields.io/github/issues/SonicTheLightning/fork-royale?style=flat&logo=github&label=issues&color=FF72B6&labelColor=171D37)](https://github.com/SonicTheLightning/fork-royale/issues)
+[![Pull requests](https://img.shields.io/github/issues-pr/SonicTheLightning/fork-royale?style=flat&logo=github&label=pull%20requests&color=9B7CFF&labelColor=171D37)](https://github.com/SonicTheLightning/fork-royale/pulls)
+[![Contributors](https://img.shields.io/github/contributors/SonicTheLightning/fork-royale?style=flat&logo=github&label=contributors&color=6EE7B7&labelColor=171D37)](https://github.com/SonicTheLightning/fork-royale/graphs/contributors)
+[![Last commit](https://img.shields.io/github/last-commit/SonicTheLightning/fork-royale/rufus-updates?style=flat&logo=git&label=last%20commit&color=9B7CFF&labelColor=171D37)](https://github.com/SonicTheLightning/fork-royale/commits/rufus-updates)
+[![Releases](https://img.shields.io/badge/releases-none%20published-69748B?style=flat&logo=github&logoColor=white&labelColor=171D37)](https://github.com/SonicTheLightning/fork-royale/releases)
 
 <br />
 
-[**Start here (FR)**](docs/START_HERE.fr.md) · [**How it works**](#how-it-works) · [**Game rules**](docs/RULES.md) · [**Contribute**](CONTRIBUTING.md) · [**Roadmap**](docs/ROADMAP.md)
+[Overview](#overview) · [Status](#project-status) · [Arena](#the-arena-concept) · [Roadmap](#planned-features) · [Getting started](#getting-started) · [Contributing](#contributing) · [Acknowledgements](#acknowledgements)
 
 </div>
 
+<img src="assets/divider.svg" alt="Cyan, violet and magenta neon divider" width="100%" />
+
 > [!IMPORTANT]
-> **Current status: documentation/blueprint, not a playable game.** This starter repository includes the project design and contributor documentation only. The Python engine, CLI, sample bots, automated tests, and tournament infrastructure are **not implemented yet**. Do not interpret planned commands as working features.
+> **Fork Royale is currently a project blueprint, not a playable game.** The `rufus-updates` branch currently contains the README, MIT license and the original header and footer SVG assets. The Python engine, bot API, command-line interface, sample bots, automated tests, tournament runner and replay viewer have not been implemented. The rules and workflow below describe the proposed design only.
 
-## Why this project?
+## Overview
 
-Most programming tutorials make you copy an answer. Fork Royale asks you to **invent a strategy**. Write a bot in Python, challenge another bot on a small turn-based arena, learn from the replay, and improve your code. Beginners can start with an `if` statement; advanced developers can experiment with search algorithms and heuristics.
+Fork Royale is planned as a programming game built around autonomous Python bots. Instead of controlling a character directly, each player writes a small program that decides what their bot should do. Bots will compete on a compact, turn-based arena where positioning, timing and strategy matter.
 
-**Our three rules:** learning beats winning · contributions beat gatekeeping · the game remains free to fork and modify.
+The goal is to make programming more hands-on and approachable. A beginner should be able to start with basic conditions and simple movement rules, while more experienced developers can explore heuristics, pathfinding and decision-making algorithms.
 
-### What we're building
+### What the project aims to teach
 
-| Feature | Version | Status | Description |
-|:--|:--:|:--:|:--|
-| Deterministic game engine | M1 | ⏳ Planned | Grid, turn order, actions, win conditions |
-| Terminal battles | M2 | ⏳ Planned | Simple commands and readable battle logs |
-| Example Python bots | M2 | ⏳ Planned | Beginner, aggressive and defensive strategies |
-| Tests and lint checks | M2 | ⏳ Planned | Rules, invalid inputs, reproducible battles |
-| Community bot submissions | M3 | ⏳ Planned | Pull requests with validation and human review |
-| Tournament and leaderboard | M4 | ⏳ Planned | Results calculated from approved, isolated matches |
-| Animated replay viewer | M5 | ⏳ Planned | Optional browser visualization, no account required |
+- **Python fundamentals:** functions, conditions, data structures and clean program design.
+- **Algorithmic thinking:** evaluate a board state and choose an action under constraints.
+- **Game logic:** turns, state transitions, validation, win conditions and deterministic outcomes.
+- **Testing and debugging:** reproduce a match, inspect decisions and test edge cases.
+- **Security awareness:** understand why user-submitted bot code must be isolated before execution.
+- **Open-source collaboration:** use Git, issues, code review and documented contribution workflows.
 
-## How it works
+These are intended learning outcomes. They are not yet delivered by a playable implementation.
+
+### Project principles
+
+- **Learn by building:** write strategies, observe their results and improve them.
+- **Play fair:** deterministic matches and clearly defined rules.
+- **Build in the open:** keep the project free to study, fork and contribute to under the MIT License.
+
+<img src="assets/divider.svg" alt="Cyan, violet and magenta neon divider" width="100%" />
+
+## Project status
+
+| Component | Current status |
+|:--|:--|
+| Project concept and README | Present |
+| MIT license | Present |
+| Original animated header and footer artwork | Present |
+| Neon section divider | Included in this README update |
+| Game rules | Draft described in the README only |
+| Python game engine | Not implemented |
+| Bot interface / API | Not implemented |
+| Command-line interface | Not implemented |
+| Example bots | Not implemented |
+| Automated tests | Not configured |
+| CI workflow | Not configured |
+| Bot sandbox | Not implemented |
+| Tournament and leaderboard | Not implemented |
+| Replay viewer | Not implemented |
+
+No installation or gameplay command is available yet. Python **3.11 or newer is the target for the planned engine**, not an installed dependency or a present runtime requirement.
+
+## The arena concept
+
+The current rules proposal describes a **10 × 10 grid** with two competing bots. Each bot starts with **10 HP** and chooses one action per turn:
+
+| Action | Draft behaviour |
+|:--|:--|
+| `move` | Move one cell in an orthogonal direction. |
+| `attack` | Hit an adjacent cell for 2 damage. |
+| `defend` | Reduce the next incoming attack by 1 damage until the bot's next action. |
+
+A match is proposed to end when a bot reaches 0 HP or after 60 rounds. If the round limit is reached, the bot with more HP wins. Equal HP results in a draw. Random behaviour, if introduced, must use a recorded seed so a match can be reproduced.
+
+These values are **draft design decisions**, not rules enforced by a working engine. They may change before implementation.
+
+### Planned match flow
 
 ```mermaid
-flowchart LR
-    A["Developer forks repository"] --> B["Writes a Python bot"]
-    B --> C["Runs a local battle"]
-    C --> D{"Works as expected?"}
-    D -->|No| E["Read error / fix / retest"]
-    E --> C
-    D -->|Yes| F["Opens a pull request"]
-    F --> G["Static checks + human review"]
-    G --> H["Approved bot library"]
-    H --> I["Isolated tournament runner — future"]
-    I --> J["Leaderboard + replay — future"]
+flowchart TD
+    A[Match setup] --> B[Create arena and bot states]
+    B --> C[Bot receives public observation]
+    C --> D[Bot returns an action]
+    D --> E[Engine validates the action]
+    E --> F[Apply action and update state]
+    F --> G{Match finished?}
+    G -->|No| C
+    G -->|Yes| H[Store result and replay]
 ```
 
-**Trust boundary:** community-submitted Python files are untrusted code. Reviewing a PR is not permission to execute it in a privileged GitHub Actions runner. See [SECURITY.md](SECURITY.md).
+*This diagram illustrates the intended flow. None of these runtime steps is implemented yet.*
 
-## The arena (draft rules, not running code)
+<img src="assets/divider.svg" alt="Cyan, violet and magenta neon divider" width="100%" />
 
-Two bots take turns on a **10 × 10** grid. Each starts with **10 HP**. Each action is exactly one of `move`, `attack`, or `defend`. Moving is one orthogonal cell. Attacking hits a neighboring cell (Manhattan distance = 1) for 2 damage. Defending reduces the next received attack by 1 damage until the bot's next action. The game ends when a bot reaches 0 HP or after 60 rounds; the surviving bot wins, otherwise the bot with the most HP wins, or the match is a draw on equal HP. All randomness must use a recorded seed.
+## Planned features
 
-These values are a **proposed contract** and may be revised in a documented rule-version change. Full details and invalid-action handling: [docs/RULES.md](docs/RULES.md).
+| Milestone | Planned feature | Goal |
+|:--|:--|:--|
+| M1 | Deterministic game engine | Grid, turns, action validation and win conditions |
+| M2 | First playable battles | CLI, trusted example bots and reproducible battle logs |
+| M3 | Community bot format | Documented bot interface and review workflow |
+| M4 | Tournaments | Isolated execution, match results and leaderboard |
+| M5 | Replay viewer | Optional visual playback of completed matches |
 
-### Example future bot API
+A milestone should only be marked complete when its implementation, tests, documentation and reproducible demonstration are available.
 
-> **Illustrative API only — do not run this code yet.** The engine and import contract do not exist at this stage.
+## Getting started
 
-```python
-class MyFirstBot:
-    name = "hello_world"
+### What you need today
 
-    def play(self, observation: dict) -> dict:
-        me = observation["self"]
-        enemy = observation["enemies"][0]
-        distance = abs(me["x"] - enemy["x"]) + abs(me["y"] - enemy["y"])
+- [Git](https://git-scm.com/) to clone the repository.
+- A terminal such as PowerShell, Windows Terminal, Bash or macOS Terminal.
+- Python 3.11+ will be needed when the planned engine is implemented. It is not required to read the current project files.
 
-        if distance == 1:
-            return {"action": "attack", "target": enemy["id"]}
-
-        if me["x"] < enemy["x"]:
-            return {"action": "move", "direction": "right"}
-        if me["x"] > enemy["x"]:
-            return {"action": "move", "direction": "left"}
-        if me["y"] < enemy["y"]:
-            return {"action": "move", "direction": "down"}
-        return {"action": "move", "direction": "up"}
-```
-
-The observation contains only public match state. The engine will validate actions and avoid leaking opponent implementation details.
-
-## Getting started: step by step
-
-### Step 0 — What you need
-
-- A computer running Windows, macOS or Linux.
-- [Git](https://git-scm.com/downloads) to download and version the project.
-- [Python](https://www.python.org/downloads/) **3.11 or newer** for the future game engine.
-- A terminal (PowerShell, Terminal, bash or equivalent). A GitHub account is only needed to submit changes online.
-
-Verify Git and Python before going further:
+### Clone the development branch
 
 ```bash
-git --version
-python --version
-```
-
-On systems where `python` does not work, try `python3 --version` (common on macOS/Linux) or `py -3 --version` (Windows Python Launcher). Substitute the working launcher in later Python commands. If the command fails, see the [French troubleshooting guide](docs/TROUBLESHOOTING.fr.md).
-
-### Step 1 — Create or clone the repository
-
-This template is not published to your account automatically. First create a **public repository named `fork-royale`** in the connected `SonicTheLightning` account, then upload these files, preserving their folders. If you publish under another account, replace the owner in README links/badges and clone commands.
-
-```bash
-git clone https://github.com/SonicTheLightning/fork-royale.git
+git clone --branch rufus-updates --single-branch https://github.com/SonicTheLightning/fork-royale.git
 cd fork-royale
 git status
 ```
 
-**Expected:** `git status` prints the current branch and its working-tree status. If Git returns `Repository not found`, check that the repository exists, the owner is correct, and your access is authorized.
+At this stage, you can inspect the README, MIT license and SVG assets. There is no game to launch, no package to install and no test command to run yet.
 
-### Step 2 — Learn the project before coding
+### When the engine exists
 
-1. Read [the beginner's guide in French](docs/START_HERE.fr.md).
-2. Read [the exact game rules](docs/RULES.md).
-3. Look at the [proposed architecture](docs/ARCHITECTURE.md) and [roadmap](docs/ROADMAP.md).
-4. For your first contribution, fix a typo or improve a confusing explanation. No Python execution is necessary for documentation-only changes.
+Installation instructions, Python environment setup and test commands will be added alongside the actual package configuration. Commands should not be documented as executable until the corresponding files and workflows exist in the repository.
 
-### Step 3 — Set up the future Python environment
+## Repository structure
 
-When milestone **M1** adds `pyproject.toml` and the `fork_royale` package, create a virtual environment:
-
-```bash
-python -m venv .venv
-```
-
-Activate it on macOS/Linux:
-
-```bash
-source .venv/bin/activate
-```
-
-Activate it in Windows PowerShell:
-
-```powershell
-.\.venv\Scripts\Activate.ps1
-```
-
-If PowerShell blocks activation, **do not change your machine-wide execution policy** just to run this project. You can directly call `.\.venv\Scripts\python.exe` for subsequent commands. Full help: [troubleshooting](docs/TROUBLESHOOTING.fr.md).
-
-### Step 4 — Future commands (not implemented)
-
-The following is the **intended** interface after M2, **not a working demo**:
-
-```bash
-python -m pip install -e ".[dev]"
-python -m pytest
-python -m fork_royale.cli battle --bot bots/my_first_bot.py --vs bots/aggressive.py --seed 42
-```
-
-Never run a bot from a stranger on your host. The first executable milestone will support only locally trusted sample bots; isolated execution of third-party bots is a separate security milestone.
-
-## Repository layout
-
-**Included now (documentation starter):**
+The branch currently contains the following files. The `divider.svg` file is supplied in the companion ZIP and must be added to `assets/` when applying this README update.
 
 ```text
 fork-royale/
-├── .github/
-│   ├── ISSUE_TEMPLATE/
-│   │   ├── bug_report.yml
-│   │   └── feature_request.yml
-│   └── pull_request_template.md
 ├── assets/
-│   ├── header.svg          # Seamlessly looping vector banner
-│   └── footer.svg          # Seamlessly looping vector footer
-├── docs/
-│   ├── START_HERE.fr.md    # Absolute beginner walkthrough
-│   ├── ARCHITECTURE.md     # Design and trust boundaries
-│   ├── GITHUB_SETUP.md     # Publication checklist + 20 topics
-│   ├── RULES.md            # Exact proposed rules
-│   ├── ROADMAP.md          # Milestones and acceptance criteria
-│   └── TROUBLESHOOTING.fr.md
-├── tools/
-│   └── render_assets.py    # Rebuild the SVG assets (Python stdlib only)
-├── .gitignore
-├── README.md
-├── CONTRIBUTING.md
-├── CODE_OF_CONDUCT.md
-├── SECURITY.md
-└── LICENSE
+│   ├── divider.svg        # New neon section separator
+│   ├── footer.svg         # Existing original animated SVG artwork
+│   └── header.svg         # Existing original animated arena banner
+├── LICENSE                # MIT License
+└── README.md              # Project overview and current status
 ```
 
-**Planned code layout (files do not exist yet):**
+The engine, documentation folder, tools, bots, tests and GitHub workflows are future work. They are not part of the current branch structure.
 
-```text
-fork-royale/
-├── fork_royale/
-│   ├── __init__.py
-│   ├── engine.py           # Pure game logic
-│   ├── rules.py            # Validation and versioned rules
-│   ├── models.py           # Bot observations / action schema
-│   ├── cli.py              # Terminal interface
-│   ├── replay.py           # Deterministic events / serialization
-│   └── tournament.py      # Batch match orchestrator
-├── bots/
-│   ├── beginner.py
-│   ├── aggressive.py
-│   └── defensive.py
-├── tests/
-│   ├── test_rules.py
-│   ├── test_engine.py
-│   ├── test_replay.py
-│   └── test_invalid_actions.py
-├── .github/workflows/ci.yml
-└── pyproject.toml
-```
+## Security direction
 
-## Roadmap and definition of done
+Community-submitted bots must be treated as **untrusted code**. A future tournament runner must not execute arbitrary submissions with access to developer credentials, repository write permissions or unrestricted network access. It will need a clearly defined isolation boundary and resource limits before public bot execution is enabled.
 
-| Milestone | Implement | Verify before merging |
-|:--|:--|:--|
-| **M0 · Docs** | Identity, rules, newcomer guide, issue templates | All internal links resolve, docs say what is planned |
-| **M1 · Engine** | Grid, turn order, typed actions, deterministic seed | Unit tests for movement, hit, defense, draw, invalid actions |
-| **M2 · First battle** | CLI + 3 trusted bots + replay event log | `pytest` passes; identical seed gives identical replay |
-| **M3 · Community** | Bot template, contribution review, static checks | Bad import, invalid schema and malicious PRs never gain privileges |
-| **M4 · Tournaments** | Isolated runner, time/memory/network limits, leaderboard | Security review + adversarial and timeout tests |
-| **M5 · Viewer** | Optional replay interface | Handles invalid replay files without executing code |
+Until that system exists, do not run unknown bot submissions on a machine containing sensitive files or credentials. A code review or pull request approval is not a security sandbox.
 
-Every milestone must include **happy path, failure cases, tests, docs, and a reproducible demonstration**. No badge should say `passing` or `released` before that is true. See [ROADMAP.md](docs/ROADMAP.md).
+## Contributing
 
-## How to contribute
+The project is at an early blueprint stage and does not yet contain a formal contribution guide, issue templates or automated review workflow. Before implementing a major feature, open an issue to discuss the proposed behaviour and rules with the repository owner.
 
-You do **not** have to be a great programmer. Start with a spelling correction, a clearer installation step, a new test case, or (later) a bot strategy. Always check [CONTRIBUTING.md](CONTRIBUTING.md) before opening a pull request.
+Useful early contributions include clarifying the game rules, identifying edge cases, discussing the bot interface and reviewing the security model. Runtime contributions should follow once the engine architecture has been agreed.
 
-```bash
-git switch -c docs/my-first-contribution
-# Edit the file and review your changes.
-git diff --check
-git status
-git add README.md
-git commit -m "docs: clarify the getting started section"
-git push -u origin docs/my-first-contribution
-```
+[![Open an issue](https://img.shields.io/badge/GitHub-open%20an%20issue-FF72B6?style=flat&logo=github&logoColor=white&labelColor=171D37)](https://github.com/SonicTheLightning/fork-royale/issues)
+[![View branch](https://img.shields.io/badge/source-rufus--updates-9B7CFF?style=flat&logo=git&logoColor=white&labelColor=171D37)](https://github.com/SonicTheLightning/fork-royale/tree/rufus-updates)
 
-These commands are for an **example README-only change**. If you edited another file, replace `README.md` in `git add`. Opening a PR is done through GitHub after pushing. If pushing fails with `permission denied`, make sure you are pushing to **your own fork**, not someone else's repository.
+## License
 
-## Errors and support
+Fork Royale is distributed under the [MIT License](LICENSE). You may use, copy, modify, merge, publish, distribute, sublicense and sell copies of the project, subject to the license terms and preservation of the copyright and permission notice.
 
-| Symptom | First check | Next action |
-|:--|:--|:--|
-| `git: command not found` | `git --version` | Install Git, reopen the terminal |
-| `python: command not found` | `python3 --version` or `py -3 --version` | Install Python 3.11+ and verify PATH |
-| `Repository not found` | GitHub URL and repo visibility | Create repo / verify repository owner |
-| `Permission denied (publickey)` | Git remote and authentication method | Use HTTPS with Git Credential Manager or configure SSH |
-| PowerShell denies `Activate.ps1` | `.venv` exists? | Call `.venv\Scripts\python.exe` directly |
-| `No module named fork_royale` | Milestone M1 implemented? | Expected before M1; do not install a guessed package |
-| A README image is missing | `assets/` committed? | Commit both SVGs with the correct relative paths |
-| A badge says `repo not found` | Repository owner correct and published? | Correct the owner in README or publish the repository |
+## Acknowledgements
 
-Full explanations, commands, and when to open an issue: [TROUBLESHOOTING.fr.md](docs/TROUBLESHOOTING.fr.md).
+- **SonicTheLightning:** project owner and maintainer, for creating and maintaining Fork Royale.
+- **Original Fork Royale artwork:** the existing `assets/header.svg` and `assets/footer.svg` files are retained in the repository. Their artwork and animation are not replaced by this README update.
+- **Shields.io:** [shields.io](https://shields.io/) provides the repository, license and project-status badges.
+- **Capsule Render:** [capsule-render](https://github.com/kyechan99/capsule-render) generates the animated SVG footer shown below.
+- **GitHub:** [github.com](https://github.com/) hosts the repository and supports project collaboration.
 
-## Contributing safely
+No additional third-party art or game-asset credits are declared in the current tracked files. Any external assets introduced later should be credited here with their original creator, source and license.
 
-Only code you trust may run locally during early development. Future tournaments must enforce an isolated, resource-limited execution boundary without credentials, write access, or network by default. CI must not check out and execute untrusted PR code inside a privileged `pull_request_target` or `workflow_run` job. See [SECURITY.md](SECURITY.md).
-
-## Publishing this repository
-
-The complete instructions for creating the public GitHub project, configuring the description, **20 searchable topics**, and rebuilding the original artwork are in [docs/GITHUB_SETUP.md](docs/GITHUB_SETUP.md). The starter does not create or change a GitHub repository automatically.
-
-## License and community
-
-Licensed under [MIT](LICENSE) so you can study, modify, fork and redistribute the code under its terms. Please follow our [Code of Conduct](CODE_OF_CONDUCT.md) and report security issues privately as described in [SECURITY.md](SECURITY.md).
-
-**No paywall. No mandatory account to play locally. Every contribution matters.**
+<img src="assets/divider.svg" alt="Cyan, violet and magenta neon divider" width="100%" />
 
 <div align="center">
 
-<img src="assets/footer.svg" alt="Animated thank-you footer — If Fork Royale inspires you, star the project and share it" width="100%" />
+<img src="assets/footer.svg" alt="Original animated Fork Royale thank-you artwork" width="100%" />
 
-<sub>SVG only · Seamless 8s loop · Motion-reduction support</sub>
+<sub>Original repository footer artwork, kept intact as a local SVG asset.</sub>
 
-**Thank you for building this arena with us.**
+**THANK YOU FOR CHECKING OUT FORK ROYALE**
 
-If this project taught you something or made you smile, **give it a ⭐ on GitHub** and share it with a friend.
+[![Star Fork Royale](https://img.shields.io/badge/Star%20this%20project-on%20GitHub-FFD166?style=flat&logo=github&logoColor=171D37&labelColor=171D37)](https://github.com/SonicTheLightning/fork-royale/stargazers)
+[![Contribute](https://img.shields.io/badge/Contributions-welcome-6EE7B7?style=flat&logo=github&logoColor=171D37&labelColor=171D37)](https://github.com/SonicTheLightning/fork-royale/issues)
 
-[⭐ Star this project](https://github.com/SonicTheLightning/fork-royale) · [Contribute](CONTRIBUTING.md) · [Back to top](#top)
+[Back to top](#top) · [View repository](https://github.com/SonicTheLightning/fork-royale) · [Browse open issues](https://github.com/SonicTheLightning/fork-royale/issues)
 
 </div>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00D9F5,50:9B7CFF,100:FF72B6&height=150&section=footer&animation=twinkling&fontColor=FFFFFF&fontSize=24&text=THANK%20YOU%20FOR%20BUILDING%20WITH%20US" alt="Animated cyan, violet and pink Capsule Render SVG footer thanking Fork Royale contributors" width="100%" />
