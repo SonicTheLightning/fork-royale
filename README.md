@@ -34,7 +34,7 @@
 
 </div>
 
-<img src="assets/divider.svg" alt="Cyan, violet and magenta neon divider" width="100%" />
+<img src="assets/fork-royale-divider.svg" alt="Cyan, violet and magenta neon divider" width="100%" />
 
 > [!IMPORTANT]
 > **Fork Royale is currently a project blueprint, not a playable game.** The `rufus-updates` branch currently contains the README, MIT license and the original header and footer SVG assets. The Python engine, bot API, command-line interface, sample bots, automated tests, tournament runner and replay viewer have not been implemented. The rules and workflow below describe the proposed design only.
@@ -62,7 +62,7 @@ These are intended learning outcomes. They are not yet delivered by a playable i
 - **Play fair:** deterministic matches and clearly defined rules.
 - **Build in the open:** keep the project free to study, fork and contribute to under the MIT License.
 
-<img src="assets/divider.svg" alt="Cyan, violet and magenta neon divider" width="100%" />
+<img src="assets/fork-royale-divider.svg" alt="Cyan, violet and magenta neon divider" width="100%" />
 
 ## Project status
 
@@ -115,7 +115,7 @@ flowchart TD
 
 *This diagram illustrates the intended flow. None of these runtime steps is implemented yet.*
 
-<img src="assets/divider.svg" alt="Cyan, violet and magenta neon divider" width="100%" />
+<img src="assets/fork-royale-divider.svg" alt="Cyan, violet and magenta neon divider" width="100%" />
 
 ## Planned features
 
@@ -196,7 +196,7 @@ Fork Royale is distributed under the [MIT License](LICENSE). You may use, copy, 
 
 No additional third-party art or game-asset credits are declared in the current tracked files. Any external assets introduced later should be credited here with their original creator, source and license.
 
-<img src="assets/divider.svg" alt="Cyan, violet and magenta neon divider" width="100%" />
+<img src="assets/fork-royale-divider.svg" alt="Cyan, violet and magenta neon divider" width="100%" />
 
 <div align="center">
 
