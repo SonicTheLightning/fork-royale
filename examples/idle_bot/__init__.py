@@ -1,1 +1,1 @@
-
+"""Idle bot example."""
