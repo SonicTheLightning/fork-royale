@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="18" viewBox="0 0 1200 18" role="img" aria-labelledby="title desc">
+  <title id="title">Fork Royale neon divider</title>
+  <desc id="desc">A thin cyan, violet and magenta neon line with glowing central diamond.</desc>
+  <defs>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#00D9F5" stop-opacity="0"/>
+      <stop offset="0.18" stop-color="#00D9F5"/>
+      <stop offset="0.5" stop-color="#9B7CFF"/>
+      <stop offset="0.82" stop-color="#FF72B6"/>
+      <stop offset="1" stop-color="#FF72B6" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-200%" width="140%" height="500%">
+      <feGaussianBlur stdDeviation="2.4"/>
+    </filter>
+  </defs>
+  <path d="M12 9 H1188" stroke="url(#line)" stroke-width="5" stroke-linecap="round" opacity="0.55" filter="url(#glow)"/>
+  <path d="M12 9 H1188" stroke="url(#line)" stroke-width="1.6" stroke-linecap="round"/>
+  <path d="M600 2 L607 9 L600 16 L593 9 Z" fill="#E7DFFF" stroke="#A855F7" stroke-width="1.2"/>
+  <circle cx="12" cy="9" r="2.2" fill="#00D9F5"/>
+  <circle cx="1188" cy="9" r="2.2" fill="#FF72B6"/>
+</svg>
