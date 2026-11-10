@@ -1,1 +1,30 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
 
+[project]
+name = "fork-royale"
+version = "0.1.0"
+description = "A deterministic 2D arena simulation for Python-controlled bots."
+readme = "README-IMPLEMENTATION-NOTES.md"
+requires-python = ">=3.11"
+license = { file = "LICENSE" }
+authors = [{ name = "Fork Royale contributors" }]
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0"]
+
+[project.scripts]
+fork-royale = "fork_royale.cli.main:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+addopts = "-ra"
