@@ -1,0 +1,49 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="330" viewBox="0 0 1000 330" fill="none">
+  <rect x="1" y="1" width="998" height="328" rx="14" fill="#14141E" stroke="#554B6D"/>
+  <text x="28" y="34" fill="#B8ACD2" font-family="monospace" font-size="11" letter-spacing="2">SIMULATION / HIGH-LEVEL VIEW</text>
+  <text x="28" y="62" fill="#E8E4EF" font-family="Arial" font-size="20" font-weight="700">One world. Multiple autonomous agents.</text>
+
+  <rect x="28" y="86" width="944" height="210" rx="10" fill="#101119" stroke="#514866"/>
+  <path d="M50 108H950M50 274H950" stroke="#74678F" stroke-opacity=".25" stroke-dasharray="4 7"/>
+  <path d="M500 86V296" stroke="#74678F" stroke-opacity=".2" stroke-dasharray="4 7"/>
+
+  <g stroke="#8E80B4" stroke-opacity=".5">
+    <circle cx="170" cy="183" r="45"/>
+    <circle cx="170" cy="183" r="27"/>
+    <circle cx="500" cy="183" r="45"/>
+    <circle cx="500" cy="183" r="27"/>
+    <circle cx="830" cy="183" r="45"/>
+    <circle cx="830" cy="183" r="27"/>
+  </g>
+
+  <g>
+    <circle cx="170" cy="183" r="13" fill="#A99ACB"/>
+    <path d="M170 165V201M152 183H188" stroke="#272232" stroke-width="2"/>
+    <circle cx="500" cy="183" r="13" fill="#7D6BA7"/>
+    <path d="M492 175L508 191M508 175L492 191" stroke="#E8E4EF" stroke-width="2"/>
+    <circle cx="830" cy="183" r="13" fill="#B8ACD2"/>
+    <path d="M830 165V201M812 183H848" stroke="#272232" stroke-width="2"/>
+  </g>
+
+  <g fill="#C8C1D5" font-family="monospace" font-size="11" text-anchor="middle">
+    <text x="170" y="246">AGENT 01</text>
+    <text x="500" y="246">AGENT 02</text>
+    <text x="830" y="246">AGENT 03</text>
+  </g>
+
+  <g stroke="#A99ACB" stroke-width="1.5" stroke-dasharray="5 5">
+    <path d="M210 183H450"/>
+    <path d="M540 183H780"/>
+  </g>
+  <g fill="#A99ACB">
+    <path d="M443 178L451 183L443 188Z"/>
+    <path d="M773 178L781 183L773 188Z"/>
+  </g>
+
+  <g fill="#777487" font-family="monospace" font-size="9">
+    <text x="330" y="171" text-anchor="middle">WORLD STATE</text>
+    <text x="660" y="171" text-anchor="middle">WORLD STATE</text>
+  </g>
+  <text x="500" y="315" text-anchor="middle" fill="#8F8B9D" font-family="monospace" font-size="9" letter-spacing="1.5">SCHEMATIC REPRESENTATION / NOT A LIVE GAME SCREENSHOT</text>
+</svg>
