@@ -1,0 +1,59 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="190" viewBox="0 0 1200 190" fill="none">
+  <defs>
+    <linearGradient id="footerBg" x1="0" y1="0" x2="1200" y2="190">
+      <stop stop-color="#171722"/>
+      <stop offset="1" stop-color="#101119"/>
+    </linearGradient>
+    <linearGradient id="waveA" x1="0" y1="0" x2="1200" y2="0">
+      <stop stop-color="#655584"/>
+      <stop offset=".5" stop-color="#9B89C4"/>
+      <stop offset="1" stop-color="#655584"/>
+    </linearGradient>
+    <style>
+      .wave-one { animation: drift-one 13s ease-in-out infinite alternate; }
+      .wave-two { animation: drift-two 17s ease-in-out infinite alternate; }
+      .wave-three { animation: drift-three 21s ease-in-out infinite alternate; }
+      @keyframes drift-one {
+        from { transform: translateX(-28px); }
+        to { transform: translateX(28px); }
+      }
+      @keyframes drift-two {
+        from { transform: translateX(24px); }
+        to { transform: translateX(-24px); }
+      }
+      @keyframes drift-three {
+        from { transform: translateX(-15px); }
+        to { transform: translateX(15px); }
+      }
+    </style>
+    <clipPath id="footerClip">
+      <rect width="1200" height="190" rx="16"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#footerClip)">
+    <rect width="1200" height="190" fill="url(#footerBg)"/>
+    <path d="M0 0H1200" stroke="#8B7AB5" stroke-opacity=".4"/>
+    <path d="M0 35H1200" stroke="#77718D" stroke-opacity=".12" stroke-dasharray="3 9"/>
+
+    <g class="wave-three">
+      <path d="M-80 108C80 60 185 145 340 110C500 75 590 55 740 103C900 155 1040 50 1280 100V220H-80Z" fill="#4E456B" fill-opacity=".28"/>
+    </g>
+    <g class="wave-two">
+      <path d="M-80 130C90 80 210 170 390 126C560 84 690 95 835 132C1000 174 1100 85 1280 122V220H-80Z" fill="#766497" fill-opacity=".32"/>
+    </g>
+    <g class="wave-one">
+      <path d="M-80 151C80 110 200 174 365 145C530 116 650 110 800 147C960 187 1080 112 1280 145V220H-80Z" fill="url(#waveA)" fill-opacity=".55"/>
+    </g>
+
+    <path d="M0 170C180 143 285 187 460 164C640 140 780 139 930 164C1040 182 1120 158 1200 164" stroke="#C5B8E0" stroke-opacity=".5"/>
+    <circle cx="90" cy="40" r="2" fill="#B8ACD2"/>
+    <circle cx="1100" cy="55" r="2" fill="#B8ACD2"/>
+    <circle cx="1040" cy="28" r="1.5" fill="#8E80B4"/>
+    <circle cx="155" cy="72" r="1.5" fill="#8E80B4"/>
+
+    <text x="40" y="31" fill="#A99ACB" font-family="monospace" font-size="10" letter-spacing="2">FORK ROYALE / END OF DOCUMENT</text>
+    <text x="1160" y="31" text-anchor="end" fill="#777487" font-family="monospace" font-size="10">SIMULATION ENGINE</text>
+  </g>
+</svg>
