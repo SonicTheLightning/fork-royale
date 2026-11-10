@@ -1,0 +1,9 @@
+
+<!-- assets/readme/sections/bots.svg -->
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="76" viewBox="0 0 1000 76">
+  <rect x="0" y="13" width="4" height="48" rx="2" fill="#9B89C4"/>
+  <text x="24" y="34" fill="#A99ACB" font-family="monospace" font-size="11" letter-spacing="2">06 / AGENT INTERFACE</text>
+  <text x="24" y="59" fill="#E8E4EF" font-family="Arial,sans-serif" font-size="25" font-weight="700">Bot API</text>
+  <path d="M165 48H970" stroke="#6E687D" stroke-opacity=".45"/>
+  <path d="M955 43L960 48L955 53" stroke="#A99ACB" stroke-width="1.5" fill="none"/>
+</svg>
