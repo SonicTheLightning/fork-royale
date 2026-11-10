@@ -1,0 +1,14 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="170" viewBox="0 0 1000 170" fill="none">
+  <rect x="1" y="1" width="998" height="168" rx="14" fill="#14141E" stroke="#554B6D"/>
+  <rect x="24" y="24" width="4" height="122" rx="2" fill="#9B89C4"/>
+  <text x="48" y="49" fill="#E8E4EF" font-family="Arial" font-size="17" font-weight="700">Prototype boundaries</text>
+  <g fill="#B4AEC0" font-family="monospace" font-size="11">
+    <text x="48" y="80">01  ASCII rendering only</text>
+    <text x="48" y="103">02  Replay playback incomplete</text>
+    <text x="48" y="126">03  Subprocess runner is not a sandbox</text>
+    <text x="520" y="80">04  Discrete collision checks</text>
+    <text x="520" y="103">05  No guaranteed obstacle setup in default arena</text>
+    <text x="520" y="126">06  Fixed-step helper is not a real-time loop</text>
+  </g>
+</svg>
