@@ -1,1 +1,1 @@
-
+"""Simple pursuit bot example."""
